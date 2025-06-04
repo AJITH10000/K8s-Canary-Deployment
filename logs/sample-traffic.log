@@ -1,0 +1,10 @@
+[INFO] v1 - 2025-06-04T12:00:00 - GET / - 200 OK  
+[INFO] v1 - 2025-06-04T12:00:01 - GET / - 200 OK  
+[INFO] v2 - 2025-06-04T12:00:02 - GET / - 200 OK  
+[INFO] v1 - 2025-06-04T12:00:03 - GET / - 200 OK  
+[INFO] v2 - 2025-06-04T12:00:04 - GET / - 500 Internal Server Error  
+[INFO] v1 - 2025-06-04T12:00:05 - GET / - 200 OK  
+[INFO] v2 - 2025-06-04T12:00:06 - GET / - 200 OK  
+[INFO] v1 - 2025-06-04T12:00:07 - GET / - 200 OK  
+[INFO] v2 - 2025-06-04T12:00:08 - GET / - 200 OK  
+[INFO] v2 - 2025-06-04T12:00:09 - GET / - 500 Internal Server Error  
