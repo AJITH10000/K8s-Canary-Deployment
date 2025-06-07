@@ -63,6 +63,7 @@ kubectl get svc
 5. Access the app
 Use Minikube to access the service:
 
+```bash
 minikube service myapp-myapp-release --url
 
 Keep the terminal open to keep the tunnel active. Open the printed URL in your browser.
