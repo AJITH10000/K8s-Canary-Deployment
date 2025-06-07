@@ -8,5 +8,8 @@ spec:
     - port: {{ .Values.service.port }}
       targetPort: 80
       protocol: TCP
+      {{- if eq .Values.service.type "NodePort" }}
+      nodePort: {{ .Values.service.nodePort | default 30088 }}
+      {{- end }}
   selector:
     app: {{ include "myapp.name" . }}
