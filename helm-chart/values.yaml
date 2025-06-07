@@ -1,14 +1,14 @@
 replicaCount: 1
 
 image:
-  repository: myapp
+  repository: nginx
   pullPolicy: IfNotPresent
-  tag: "v1"
+  tag: "latest"
 
 service:
   type: NodePort
   port: 80
-  nodePort: 30088 
+  nodePort: 30088
 
 resources: {}
 
